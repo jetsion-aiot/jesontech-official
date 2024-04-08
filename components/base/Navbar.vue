@@ -15,18 +15,17 @@
           :class="[open ? 'flex' : 'hidden lg:flex']"
           class="w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
         >
-          <NavLink name="Cryptocurrency" url="#" />
-          <NavLink name="Exchanges" url="#" />
-          <NavLink name="Watchlist" url="#" />
-          <NavLink name="NFT" url="#" />
-          <NavLink name="Portfolio" url="#" />
-          <li class="relative group">
+          <NavLink name="碳排查" url="#" />
+          <NavLink name="解決方案" url="#" />
+          <NavLink name="最新消息" url="#" />
+          <NavLink name="相關連結" url="#" />
+          <li class="relative group whitespace-nowrap">
             <button
               class="md:px-4 py-2 text-sm bg-transparent rounded-lg text-[#666666] hover:text-gray-900 focus:outline-none focus:shadow-outline flex items-center"
               @click="dropdownToggler"
               @blur="dropdownToggler"
             >
-              <span>Products</span>
+              <span>產品</span>
               <ChevronUpIcon v-if="dropdownNavbar" :size="16" />
               <ChevronDownIcon v-else :size="16" />
             </button>

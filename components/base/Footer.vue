@@ -22,8 +22,8 @@
           class="md:w-full lg:w-full lg:border-r w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 border-t sm:border-t xl:border-r border-[#DDDDDD]"
         >
           <ul class="space-y-4">
-            <NavLink name="Products" url="#" />
-            <NavLink name="About Us" url="#" />
+            <NavLink name="產品" url="#" />
+            <NavLink name="關於我們" url="#" />
             <NavLink name="Careers" url="#" />
             <NavLink name="Blog" url="#" />
             <NavLink name="Security" url="#" />
