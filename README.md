@@ -22,7 +22,7 @@ Free landing page template built using Nuxt 2 and Tailwindcss 3
 ├── README.md  
 ├── nuxt.config.js  
 ├── package.json  
-└── tailwind.config.js  
+└── tailwind.config.js
 
 ## Getting Started
 
@@ -45,6 +45,7 @@ $ yarn generate
 ```
 
 ## Other version of NEFA
+
 - [React NEFA](https://github.com/hakimov-dev/nefa-react) by [Muhammadamin](https://github.com/hakimov-dev)
 
 Use it for learn, but please don’t republish, redistribute, or resell the template.

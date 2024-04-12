@@ -54,7 +54,7 @@ export default {
     name: {
       type: String,
       require: true,
-      default: ""
+      default: '',
     },
     defaultValue: {
       type: [Number, String],
@@ -70,8 +70,8 @@ export default {
     },
     type: {
       type: String,
-      default: "text"
-    }
+      default: 'text',
+    },
   },
   data() {
     return {
@@ -79,9 +79,9 @@ export default {
     }
   },
   methods: {
-    toggleDropdown () {
+    toggleDropdown() {
       this.openDropdown = !this.openDropdown
-    }
-  }
+    },
+  },
 }
 </script>

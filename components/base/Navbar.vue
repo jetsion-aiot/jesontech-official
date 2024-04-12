@@ -64,9 +64,9 @@ export default {
     }
   },
   methods: {
-    dropdownToggler () {
+    dropdownToggler() {
       this.dropdownNavbar = !this.dropdownNavbar
-    }
-  }
+    },
+  },
 }
 </script>
